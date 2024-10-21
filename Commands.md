@@ -153,8 +153,7 @@ clear
 Clears the terminal screen.
 
 ### View Command History
-\`\`\`bash
+```bash
 history
-\`\`\`
+```
 Displays the list of previously executed commands.
-"""
