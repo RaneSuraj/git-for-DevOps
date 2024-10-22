@@ -157,3 +157,35 @@ Clears the terminal screen.
 history
 ```
 Displays the list of previously executed commands.
+
+## 9. Git Clonning
+
+### clone repository
+```bash
+git clone https://github.com/LondheShubham153/git-for-devops.git
+```
+get remote repository on your local system
+
+## 10. Manage set of tracked repositories
+
+### Manage repositories
+```bash
+git remote -v
+
+git remote set-url origin git@github.com:RaneSuraj/git-for-DevOps.git
+```
+show remote url of the repositories
+
+## 11. push pull commands for managing code
+
+### Pushing Changes
+```bash
+git push
+```
+push changes from local system to the remote repositories
+
+### Pulling Changes
+```bash
+git pull
+```
+pulling changes from remote repositories to our local system
